@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Суо Йобицуги - Cardfight!! Vanguard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://static.wikia.nocookie.net/cardfight/images/4/4e/DarkStates-ArtworkD.png/revision/latest?cb=20210126074023') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            width: 100vw;
+            overflow-y: auto;
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            position: relative;
+            z-index: 1;
+        }
+        .image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+        .text {
+            flex: 2;
+            padding: 40px;
+        }
+        h1, h2 {
+            color: #ffcc00;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+        }
+        .quote {
+            font-style: italic;
+            font-size: 24px;
+            color: #ffcc00;
+            margin-top: 20px;
+            padding-left: 10px;
+            border-left: 5px solid #ffcc00;
+        }
+        .card-section {
+            display: flex;
+            width: 100%;
+            padding: 50px;
+            margin-top: 40px;
+            position: relative;
+            z-index: 1;
+        }
+        .card-info {
+            flex: 2;
+            padding: 20px;
+        }
+        .card-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-image img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="image">
+            <img src="https://static.wikia.nocookie.net/cardfight/images/1/13/SuoYobitsugi.webp/revision/latest?cb=20231215034930" alt="Суо Йобицуги">
+        </div>
+        <div class="text">
+            <h1>Суо Йобицуги</h1>
+            <h2 style="margin-bottom: 40px;">Биография</h2>
+            <p>Суо Йобицуги е герой от аниме сериала <strong>Cardfight!! Vanguard Divinez</strong>.</p>
+            <p>Той е съученик на Акина Мьодо и притежава картата „Fated One of Zero, Blangdmire“.</p>
+            <p>Суо има сиви очи, уморен поглед и дълги кичури сива коса, които обрамчват лицето му.</p>
+            <p>Въпреки че не проявява особен интерес към нищо или никого, той е гениален играч на Vanguard.</p>
+            <p>Носи сиво яке с жълта подплата, бяла тениска, сиви панталони и черни маратонки.</p>
+            <p>В епизод 7 от поредицата той споделя с Акина за своето болезнено минало, докато двамата прекарват бурна нощ в града.</p>
+            <h2 style="margin-bottom: 40px;">Вдъхновяващ цитат</h2>
+            <p class="quote">„В сърцевината на всички неща е празнотата.“</p>
+        </div>
+    </div>
+    <div class="card-section">
+        <div class="card-info">
+            <h2 style="margin-bottom: 40px;">История</h2>
+            <p>Blangdmire was born in the Dark States' Dark Region, at the bottom of a swamp where the sorrows of the world pooled.</p>
+            <p>Unlike the other Fated Ones, it is a Demon that appeared and became active after the Fate Power released from the Dragontree came pouring down.</p>
+            <p>In search of "something" to fill the empty vessel that is itself, Blangdmire wanders around, swallowing up everything it encounters into its barrier.</p>
+            <p>All that is swallowed up by the barrier it generates, be it living beings, fields or towns, become nothing, unable to return to reality.</p>
+            <h2 style="margin-bottom: 40px;">Ефект</h2>
+            <p>[AUTO](VC):When this unit attacks a vanguard, COST [bind two or more, up to four cards from soul face down], and you may draw a card.</p>
+            <p>If you bound four or more cards, your opponent chooses two of their rear-guards, binds them face down, and this unit gets [Power]+5000 until end of that battle for every two face down cards in your bind zone.</p>
+            <p>Divine Skill-[AUTO](VC):At the beginning of the guard step of the battle this unit attacked, if your bind zone has eight or more face down cards, you may have this unit get [Critical]+1 until end of turn.</p>
+            <p>If you do, your opponent cannot call or play sentinels from hand until end of turn, choose one of your opponent's vanguards, and until end of your opponent's next turn, all of your opponent's and that unit's abilities are nullified. (Persona ride will activate)</p>
+        </div>
+        <div class="card-image">
+            <img src="https://preview.redd.it/fated-one-of-zero-blangdmire-hd-stiched-artwork-v0-3zo8dhq04roc1.png?width=640&crop=smart&auto=webp&s=55fecf12f177e36973807b602764b0f6de1bcae4" alt="Fated One of Zero, Blangdmire">
+        </div>
+    </div>
+</body>
+</html>
